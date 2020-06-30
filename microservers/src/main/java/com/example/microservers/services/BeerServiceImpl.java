@@ -20,9 +20,8 @@ public class BeerServiceImpl implements BeerService {
     }
 
     @Override
-    public BeerDto updateBeer(UUID beerid, BeerDto beerDto) {
+    public void updateBeer(UUID beerid, BeerDto beerDto) {
         // todo impl would add real impl to update beer
-        return null;
     }
 
     @Override

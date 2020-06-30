@@ -21,4 +21,9 @@ public class CustomerServiceImpl implements CustomerService {
     public void updateCustomer(UUID customerid, CustomerDto customerDto) {
 
     }
+
+    @Override
+    public void deleteById(UUID customerid) {
+
+    }
 }
